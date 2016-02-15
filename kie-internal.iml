@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="kie-internal-6.1.0.Laiqu.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.kie.internalapi" bundleVersion="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.2015-07-16T08:23:31Z" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="The Drools and jBPM internal API which is NOT backwards compatible between releases." />
+          <property key="Bundle-Vendor" value="JBoss by Red Hat" />
+          <property key="Bundle-DocURL" value="http://www.jboss.org/" />
+          <property key="Import-Package" value="com.sun.tools.xjc;resolution:=optional,com.thoughtworks.xstream;resolution:=optional,javax.enterprise.*;resolution:=optional,javax.inject.*;resolution:=optional,javax.xml.bind;resolution:=optional,javax.xml.bind.annotation;resolution:=optional,org.drools.compiler.builder.impl,org.drools.core.builder.conf.impl;resolution:=optional,org.drools.core.command.impl,org.drools.core.concurrent,org.drools.core.impl,org.drools.core.io.impl,org.drools.core.marshalling.impl;resolution:=optional,org.drools.decisiontable;resolution:=optional,org.drools.persistence.jpa;resolution:=optional,org.jbpm.bpmn2;resolution:=optional,org.jbpm.marshalling.impl;resolution:=optional,org.jbpm.process.builder;resolution:=optional,org.jbpm.runtime.manager.impl;resolution:=optional,org.jbpm.services.task.persistence;resolution:=optional,org.kie.api,org.kie.api.builder,org.kie.api.command,org.kie.api.concurrent,org.kie.api.conf,org.kie.api.definition,org.kie.api.definition.process,org.kie.api.definition.rule,org.kie.api.definition.type,org.kie.api.event,org.kie.api.io,org.kie.api.logger,org.kie.api.marshalling,org.kie.api.persistence.jpa,org.kie.api.runtime,org.kie.api.runtime.conf,org.kie.api.runtime.manager,org.kie.api.runtime.process,org.kie.api.runtime.rule,org.kie.api.task,org.kie.api.task.model,org.slf4j" />
+          <property key="Export-Package" value="org.kie.internal.*" />
+          <property key="-removeheaders" value="Ignore-Package" />
+          <property key="-nouses" value="true" />
+          <property key="-snapshot" value="2015-07-16T08:23:31Z" />
+          <property key="Scm-Revision" value="${buildNumber}" />
+          <property key="Build-Timestamp" value="${build.datetime}" />
+          <property key="Bundle-Name" value="KIE Internal" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/kie-internal/target/classes" />
+    <output-test url="file://$MODULE_DIR$/kie-internal/target/test-classes" />
+    <content url="file://$MODULE_DIR$/kie-internal">
+      <sourceFolder url="file://$MODULE_DIR$/kie-internal/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/kie-internal/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="kie-api" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.thoughtworks.xstream:xstream:1.4.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.enterprise:cdi-api:1.0-SP4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.bind:jaxb-xjc:2.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
+  </component>
+</module>

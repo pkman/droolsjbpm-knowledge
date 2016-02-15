@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kie-api/kie-api.iml" filepath="$PROJECT_DIR$/kie-api/kie-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kie-api-parent.iml" filepath="$PROJECT_DIR$/kie-api-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kie-internal/kie-internal.iml" filepath="$PROJECT_DIR$/kie-internal/kie-internal.iml" />
+    </modules>
+  </component>
+</project>
+

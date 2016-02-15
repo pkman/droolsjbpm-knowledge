@@ -4,10 +4,10 @@
 # Eclipse, Netbeans and IntelliJ files
 /.*
 !.gitignore
+!.idea
 /nbproject
 /*.ipr
 /*.iws
-/*.iml
 *.xpr
 
 # Repository wide ignore mac DS_Store files

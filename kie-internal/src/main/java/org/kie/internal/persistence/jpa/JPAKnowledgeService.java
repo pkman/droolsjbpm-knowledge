@@ -115,6 +115,8 @@ import org.kie.internal.runtime.StatefulKnowledgeSession;
 public class JPAKnowledgeService {
     private static KieStoreServices provider;
 
+    static final String TAG="[JPA知识库服务] ";
+
     public static StatefulKnowledgeSession newStatefulKnowledgeSession(KieBase kbase,
                                                                        KieSessionConfiguration configuration,
                                                                        Environment environment) {
@@ -138,9 +140,11 @@ public class JPAKnowledgeService {
     }
 
     private static synchronized KieStoreServices getJPAKnowledgeServiceProvider() {
+        System.out.println(TAG+"获取provider");
         if ( provider == null ) {
             loadProvider();
         }
+        System.out.println(TAG+"获取provider:"+provider);
         return provider;
     }
 
